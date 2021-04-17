@@ -1,12 +1,12 @@
 # aws-dotnet-logging
- demo of Logging in a .NET Core WebApi as a Lamda Function 
+ demo of Logging in a .NET Core WebApi as a Lambda Function 
 
 ## Dev Environment
  - OS: Windows 10
  - Editor: VSCode
  - Terminal: Powershell
  - Git management: Github Desktop
- 
+
 ## Initial Setup Steps
 1. Install Lambda Template Nuget package `dotnet new -i Amazon.Lambda.Templates`
 2. Dry Run Adding a Lambda Asp.Net Core Web Api project `dotnet new serverless.AspNetCoreWebApi -n serverless-logging-example --dry-run`.
